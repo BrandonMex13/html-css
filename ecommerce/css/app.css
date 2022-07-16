@@ -1,0 +1,108 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1REM == 10px */
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Globales */
+
+h1, h2, h3{
+    font-family: 'Playfair Display', serif;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/* Header y Navegacion */
+.nombre-sitio{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.nombre-sitio span{
+    color: #037bc0;
+}
+
+.contenedor-navegacion{
+    border-top: 1px solid #e1e1e1;
+}
+
+.nav-principal{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero{
+    background-image: url("../img/principal.jpg");
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Categorias */
+
+.categorias h2{
+    text-align: center;
+}
+
+.categoria a{
+    text-align: center;
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.categoria a:hover{
+    color: #FFFFFF;
+    background-color: #037bc0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.listado-categorias{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+/* Box Model */
+.sobre-nosotros{
+    background-color: red;
+    width: 200px;
+    padding: 25px;
+}
+
+.sobre-empresa{
+    background-color: blue;
+    width: 500px;
+    padding: 100px;
+}
+
+/* Display inline y block */
